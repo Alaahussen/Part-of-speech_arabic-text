@@ -94,21 +94,6 @@ Post-process these predictions to map back to readable POS tags using `id2label`
 * Transformers (`pip install transformers`)
 * scikit-learn (for label encoding)
 
----
-
-## 📂 Folder Structure
-
-```
-arabic-pos-tagging/
-│
-├── data/                  # Dataset used for training/evaluation
-├── model/                 # Saved model weights (if any)
-├── pos_tagger.py          # Core script
-├── utils.py               # Label mapping, preprocessing utilities
-└── README.md              # Project documentation
-```
-
----
 
 ## 📌 Use Cases
 
@@ -123,6 +108,3 @@ arabic-pos-tagging/
 * Pre-trained model: [asafaya/bert-base-arabic](https://huggingface.co/asafaya/bert-base-arabic)
 * Hugging Face Transformers
 
----
-
-Let me know if you'd like an example notebook or script for inference!
